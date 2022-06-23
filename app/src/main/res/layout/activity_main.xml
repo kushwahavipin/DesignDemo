@@ -1,0 +1,29 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nf"
+    android:orientation="vertical"
+    android:id="@+id/l1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <Button
+     android:id="@+id/b1"
+     android:text="Button 1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"></Button>
+
+ <Button
+     android:id="@+id/b2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="70dp"
+     android:layout_marginTop="100dp"
+     android:fontFamily="sans-serif-condensed-medium"
+     android:text="Button 2"
+     android:textAllCaps="false"
+     android:textColor="#000000"
+     android:textSize="40sp"
+     android:textStyle="bold"
+     ></Button>
+
+</LinearLayout>
